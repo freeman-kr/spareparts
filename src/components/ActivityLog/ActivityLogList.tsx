@@ -46,7 +46,7 @@ export default function ActivityLogList() {
                       {log.users?.name}
                     </p>
                     <p className="text-sm text-gray-500">
-                      {t(log.action, log.details)}
+                      {t(log.action, log.details).toString()}
                     </p>
                   </div>
                   <div className="flex-shrink-0 text-sm text-gray-500">
